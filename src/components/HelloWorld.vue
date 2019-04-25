@@ -13,13 +13,9 @@
 <script>
 import axios from "axios";
 import firebase from "firebase";
+
  var config = {
-    apiKey: "AIzaSyBy1DX1GPdz0Ls5kFmu7KV-H_2rj9z5TQA",
-    authDomain: "hosting-practice-simple.firebaseapp.com",
-    databaseURL: "https://hosting-practice-simple.firebaseio.com",
-    projectId: "hosting-practice-simple",
-    storageBucket: "hosting-practice-simple.appspot.com",
-    messagingSenderId: "845643636241"
+    // Import config from firebase: https://console.firebase.google.com => choose project => project overview => add app
   };
 firebase.initializeApp(config);
 export default {
